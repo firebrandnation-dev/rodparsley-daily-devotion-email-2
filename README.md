@@ -15,9 +15,9 @@ The design follows the supplied revision brief:
 
 Files:
 
-- `index.html` - responsive, table-based HTML email
+- `index.html` - responsive, table-based HTML email with inline core styling and public HTTPS image URLs
 - `plain-text.txt` - matching text-only fallback
 - `campaign-notes.txt` - subject, preheader, links, and send notes
 - `assets/` - devotion hero, original podcast artwork, episode thumbnail, and icons
 
-Before sending from an email platform, upload every used image and replace the relative `assets/...` paths in `index.html` with public HTTPS URLs.
+The core layout is inline-styled and table-based for Gmail, Outlook, Apple Mail, and common campaign tools. Rounded corners degrade to square corners in older Outlook versions without breaking alignment or content. Images use public HTTPS URLs from this repository, so the rendered template can be copied into an email editor without rewriting asset paths.

@@ -21,5 +21,5 @@ Facebook: https://www.facebook.com/rodparsley
 X / Twitter: https://twitter.com/RealRodParsley
 YouTube: https://www.youtube.com/@rodparsley
 
-SEND SETUP
-Upload the images in assets/ to the email platform and replace all relative image paths in index.html with public HTTPS URLs.
+EMAIL CLIENT SETUP
+Open index.html in a browser, select the rendered email, and paste it into the email client's rich-text composer. The template uses table layout, inline core styles, public HTTPS images, explicit image dimensions, and Outlook-safe button padding. Media queries improve the mobile layout in clients that support them; clients that remove head styles retain a readable desktop layout.
