@@ -10,7 +10,7 @@ The design follows the supplied revision brief:
 - Calibri throughout the email
 - the supplied original Rod Parsley Podcast artwork
 - the approved devotional and latest-episode content from version 1
-- Apple Podcasts, Spotify, YouTube, Facebook, and X links with image icons
+- text-only Apple Podcasts, Spotify, and YouTube listening links, plus Facebook, X, and YouTube social icons
 - World Harvest Church calls to action linked to `https://whc.life/`
 
 Files:
